@@ -24,8 +24,8 @@ end
 
 def valid_phone_number?(phone)
   if phone.match(/^(\s*\d{1}\s*\d{1}\s*\d{1}\s*\d{1}\s*\d{1}\s*\d{1}\s*\d{1}\s*\d{0,1}\s*)?$/)
-    return true
-  else
     return false
+  else
+    return true
   end
 end
